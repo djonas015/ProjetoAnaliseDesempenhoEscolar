@@ -16,3 +16,5 @@ Projeto simples de análise de dados em Python que avalia o desempenho de alunos
 - Pandas
 - Matplotlib
 - CSV
+
+![Gráfico de desempenho escolar](grafico_desempenho.png)
