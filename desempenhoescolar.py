@@ -16,7 +16,7 @@ def classificar(nota):
     elif nota < 6:
         return "Insatisfatório"
      
-     
+  
 df['desempenho'] = df['nota'].apply(classificar)
 print("\nTabela com situação de desempenho:")
 print(df[['nome', 'nota', 'disciplina', 'bimestre', 'desempenho']])
