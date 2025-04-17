@@ -14,7 +14,7 @@ def classificar(nota):
     elif nota >= 6:
         return "Regular"
     elif nota < 6:
-        return "Insatifatório"
+        return "Insatisfatório"
      
      
 df['desempenho'] = df['nota'].apply(classificar)
